@@ -17,4 +17,4 @@ app.listen(port, () => {
 app.use((0, cors_1.default)());
 app.use("/user", user_1.default);
 app.use("/admin", admin_1.default);
-mongoose_1.default.connect("mongodb+srv://RaunakA_:QTbajjyxdQEZMJDf@cluster0.ivcfy9f.mongodb.net/", { dbName: "Course_with_recoil" });
+mongoose_1.default.connect("your-connection-string", { dbName: "your-db-name" });

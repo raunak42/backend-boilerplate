@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors"
 import userRoutes from "./routes/user"
 import adminRoutes from "./routes/admin"
-
+ 
 const app = express();
 const port = 3000;
 
